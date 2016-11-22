@@ -4,24 +4,17 @@
         <title>Hello world</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, target-densitydpi=medium-dpi, user-scalable=0" />
         <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-        <!--<script src="phonegap.js"></script>               -->
-        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <!--<script src="phonegap.js"></script>               
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>-->
         
     
         Hello world
-        
+       <input type="button" value="click" onclick="showAlertBox()">
     </body>
 </html>
 <script type="text/javascript">
             // Wait for the document to be ready before starting...
-            $(document).ready(function() 
-            {
-                /*window.addEventListener("batterystatus", onBatteryStatus, false);
-
-				function onBatteryStatus(status) {
-					alert("Level: " + status.level + " isPlugged: " + status.isPlugged);
-				}*/
-				//alert(device.model);
-		    alert("Hi alert box");
-            });
+            function showAlertBox(){
+				alert("Alert box, phonegap app");
+			}
         </script>
